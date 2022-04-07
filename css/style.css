@@ -1,24 +1,73 @@
-li{
-    list-style: none;
-    float: right;
-    margin: 30px 170px 0 0;
+
+ .container{
+    /*max-width: 100%;*/
+ }
+
+a {	
+    text-decoration: none;
+    color: #4b4b4b;
+ }
+
+ul{
+    display: flex;
+    justify-content: flex-end;
 }
 
+li{
+    list-style: none;
+    margin: 0 0 0 15px;
+}
 
 .gazou{
     border-radius: 50%;
+    margin-right: 20px;
 }
 
-.header-logo{
-    margin: 0 0 0 165px;
+.container1{
+    display: flex;
+    justify-content: center;
+}
+
+.container3{
+    display: flex;
+    flex-direction: column;
 }
 
 h2{
-    text-align: center;
-    border-bottom: 1px solid;
+    margin:30px auto 10px auto;
+    border-bottom: solid 1px #555;
+    width: 90px;
+    
+}
+
+.container2{
+    display: flex;
+    justify-content: center;
 }
 
 footer{
     text-align: center;
     font-size: 10px;
+    margin: 50px 0 0 0;
+}
+
+header .wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.wrapper{
+    max-width: 100%;
+}
+
+.window1{
+    margin-right: 20px;
+}
+
+.window2{
+    margin-right: 20px;
+}
+
+.kakeru{
+    margin-top: 10px;
 }

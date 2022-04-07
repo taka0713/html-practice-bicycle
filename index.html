@@ -17,37 +17,47 @@
 
 <body>
   <script src="js/scripts.js"></script>
-  <header>
+  <header class="wrapper">
     <div class="wrapper">
       <img src="./img/logo.svg"  width="120px" height="40px" class="header-logo">
-      <div class="header-list">
+      <nav class="pc-nav">
         <ul>
-          <li>About</li>
-          <li>Bicycle</li>
+          <li><a href="#About">About</a></li>
+          <li><a href="#Bicycle">Bicycle</a></li>
         </ul>
-      </div>
+      </nav>
     </div>
   </header>
-    <div class="main">
-      <div class="container1">
-        <img src="./img/mainvisual.jpg" width="1920px" height="1280px">
-        <h2>About</h2>
-        <img src="./img/about.jpg" width="100px" height="100px" class="gazou">
-        <h3>KAKERU MIYAICHI</h3>
-        <p>テキストテキストテキスト</p>
-      </div>
-      <div class="container2">
-        <h2>Bicycle</h2>
-        <img src="./img/bicycle1.jpg" width="190px" height="126px">
-        <h3>タイトルタイトル</h3>
-        <p>テキストテキストテキスト</p>
-        <img src="./img/bicycle2.jpg" width="190px" height="126px">
-        <h3>タイトルタイトル</h3>
-        <p>テキストテキストテキスト</p>
-        <img src="./img/bicycle3.jpg" width="190px" height="126px">
-        <h3>タイトルタイトル</h3>
-        <p>テキストテキストテキスト</p>
-      </div>
+  <div class="main wrapper">
+    <div class="container">
+      <img src="./img/mainvisual.jpg" style="width:100%">
     </div>
-  <footer>&#169;2020 Profile</footer>
+    <h2 id="About">About</h2>
+      <div class="container1">
+        <img src="./img/about.jpg" width="100px" height="100px" class="gazou">
+          <div class="container3">
+            <h3>KAKERU MIYAICHI</h3>
+            <p class="kakeru">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+          </div>
+      </div>
+    <h2 id="Bicycle">Bicycle</h2>
+      <div class="container2">
+        <div class="window1">
+          <img src="./img/bicycle1.jpg" width="270px" height="180px">
+          <h3>タイトルタイトル</h3>
+          <p>テキストテキストテキスト</p>
+        </div>
+        <div class="window2">
+          <img src="./img/bicycle2.jpg" width="270px" height="180px">
+          <h3>タイトルタイトル</h3>
+          <p>テキストテキストテキスト</p>
+        </div>
+        <div class="window3">
+          <img src="./img/bicycle3.jpg" width="270px" height="180px">
+          <h3>タイトルタイトル</h3>
+          <p>テキストテキストテキスト</p>
+        </div>
+      </div>
+  </div>
+  <footer  class="wrapper">&#169;2020 Profile</footer>
 </body>
